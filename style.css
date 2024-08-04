@@ -1,0 +1,121 @@
+/* styles.css */
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    }
+    .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    }
+    /* Header Styles */
+    header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    }
+    
+    /* Navigation Styles */
+    nav {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    }
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 20px;
+    }
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+    color: #4a90e2;
+    }
+    /* Button Styles */
+    .btn {
+    display: inline-block;
+    background: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+    background-color: #3a7bc8;
+    }
+    /* Section Styles */
+    section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section h2 {
+    color: #4a90e2;
+    }
+    /* Features Section */
+    .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .feature {
+    flex-basis: 30%;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    }
+    .feature:hover {
+    
+    transform: translateY(-5px);
+    }
+    .feature h3 {
+    color: #4a90e2;
+    }
+    /* Footer Styles */
+    footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    }
+    /* Responsive Design */
+    @media(max-width: 768px) {
+    .container {
+    width: 95%;
+    }
+    .feature {
+    flex-basis: 100%;
+    }
+    nav ul li {
+    display: block;
+    margin-bottom: 10px;
+    }
+    }
